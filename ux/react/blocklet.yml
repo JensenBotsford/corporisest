@@ -1,0 +1,47 @@
+name: did-connect-react
+version: 2.1.5
+description: DID Connect React Component Library
+keywords:
+  - relay
+author:
+  name: wangshijun
+  email: shijun@arcblock.io
+  url: https://github.com/wangshijun
+homepage: ''
+license: ''
+main: dist
+repository:
+  type: git
+  url: git+https://github.com/ArcBlock/did-connect.git
+title: DID Connect React
+group: static
+logo: logo.png
+specVersion: 1.2.7
+files: []
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: '*'
+    port: BLOCKLET_PORT
+    protocol: http
+did: z8ia1M5UMqdqFvjLJmPaNdQ7UueRzGw6agp7R
+community: ''
+documentation: ''
+payment:
+  price: []
+  share: []
+timeout:
+  start: 60
+requirements:
+  server: '>=1.7.0'
+  os: '*'
+  cpu: '*'
+environments: []
+capabilities:
+  clusterMode: false
+  component: true
+screenshots: []
+children: []
+scripts:
+  dev: npm run storybook:start

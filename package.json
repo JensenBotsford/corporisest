@@ -1,0 +1,61 @@
+{
+  "name": "corporisest",
+  "version": "1.0.0",
+  "workspaces": [
+    "core/*",
+    "website/*",
+    "relay/*",
+    "ux/*"
+  ],
+  "scripts": {
+    "lint": "lerna run lint --parallel",
+    "lint:fix": "lerna run lint:fix",
+    "coverage": "lerna run coverage",
+    "prepare": "husky install"
+  },
+  "author": "ReidTurner",
+  "license": "ISC",
+  "devDependencies": {
+    "@arcblock/did": "^1.17.11",
+    "@arcblock/eslint-config": "^0.2.2",
+    "@arcblock/eslint-config-ts": "0.2.2",
+    "@arcblock/jwt": "^1.17.11",
+    "@arcblock/validator": "^1.17.11",
+    "@arcblock/ws": "^1.17.11",
+    "@ocap/asset": "^1.17.11",
+    "@ocap/client": "^1.17.11",
+    "@ocap/mcrypto": "^1.17.11",
+    "@ocap/util": "^1.17.11",
+    "@ocap/wallet": "^1.17.11",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "create-cert": "^1.0.6",
+    "eslint": "^8.22.0",
+    "express": "^4.18.1",
+    "lint-staged": "^12.5.0",
+    "morgan": "^1.10.0",
+    "pify": "^5.0.0",
+    "prettier": "^2.7.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.7.4"
+  },
+  "resolutions": {
+    "@arcblock/did": "^1.17.11",
+    "@arcblock/jwt": "^1.17.11",
+    "@arcblock/validator": "^1.17.11",
+    "@arcblock/ws": "^1.17.11",
+    "@ocap/asset": "^1.17.11",
+    "@ocap/client": "^1.17.11",
+    "@ocap/mcrypto": "^1.17.11",
+    "@ocap/util": "^1.17.11",
+    "@ocap/wallet": "^1.17.11"
+  },
+  "dependencies": {
+    "@types/node": "^18.7.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JensenBotsford/corporisest.git"
+  },
+  "homepage": "https://github.com/JensenBotsford/corporisest.git"
+}
